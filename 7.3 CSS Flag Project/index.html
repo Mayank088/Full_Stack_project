@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+
+    /* red rect */
+    .flag{
+      background-color: #ce1126;
+      height: 600px;
+      width: 900px;
+      position: relative;
+    }
+
+    /* blue rect */
+    div div{
+      background-color:#002868 ;
+      height: 300px;
+      width: 900px;
+      position: absolute;    /* red ne dhayn ma raki ne change thase teno perent che ane tene relative aapvu j pade  */
+      top:150px
+    }
+    div div div {
+      background-color: white;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: relative;
+      top: 50px;
+      left: 350px;
+    }
+
+    p{
+      margin: 0%;
+      font-size: 5rem;
+      text-align: center;
+      color: white;
+    }
+
+    /* inspect -> find whare is the p in element -> then right click on it -> then copy option -> copy selector 
+    choos -> pest in css file */
+
+    body > div > div > div > p{
+      color: black;                   
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+          <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
