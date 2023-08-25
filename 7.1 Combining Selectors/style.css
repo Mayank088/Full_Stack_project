@@ -1,0 +1,29 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+
+.box > .done{
+    color: firebrick   /*done class ghana che to tena perent pachi no j just done class joto hoy to aavu karvu > */
+}
+
+/* .box > p {
+    color: firebrick;         aam pan chale
+} */
+
+.box li{
+    color: blue;
+}
+
+
+/* chainaing selector no space give to them */
+li.done{
+    color: green;
+}
+
+
+/* combaining combiner 
+ selector selectorselector*/
+ul p.done{
+    font-size: 0.5rem;
+}
