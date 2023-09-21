@@ -114,3 +114,10 @@ setTimeout(function(){activeButton.classList.remove("pressed");} , 100);
 
 //setTimeout(function() , 100)
 //ahi koi function niche banviu hoy tenu name pan aapi saki pan ahi direct ahi j function banaviu
+
+
+
+
+//aa code ma bov vache space muki ne evu kariu che badhe but te load thavama todo vadhu time lye atle tene
+//minify.org ma jai ne code ne peaste karvo atle size ochi thay jase badhu begu begu aavse samajse nai but 
+//user ne load thavama time ocho lagse
